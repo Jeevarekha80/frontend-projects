@@ -15,7 +15,13 @@
             th{
                 background-color: aquamarine;
             }
-            
+            .form{
+                 background-color:pink;
+                 padding: 30px;
+                 border-radius: 10px;
+                 width: 300px;
+                 height:400px;
+            }
         </style>
     </head>
     <body>
@@ -66,7 +72,29 @@
             <td>hybiscus</td>
             <td>20</td>
         </tr>
-       </table>
-
+       </table><pre></pre>
+       <div class="form">
+       <center><h1>Sign up</h1>
+    <p>Please fill in the information and signup to our website</p>
+      <form id="signup form">
+        <label for="name">User Name:</label>
+        <input type="text" id="name" required><br><br>
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email" style="width:150px"><br><br>
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" style="width:150px"><br><br>
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required style="width:150px">
+            <option>(Select)</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <p>If you already registered? <a href="Login.html">Login</a> </p><br>
+        <button type="submit">Sign up</button>
+        <button type="submit">Cancel</button><br>
+      </form>
+       </center>
+       </div>
     </body>
 </html>
